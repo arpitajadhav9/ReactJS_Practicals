@@ -1,0 +1,24 @@
+/* WeatherDisplay.css */
+
+.weather-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .weather-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .weather-info {
+    font-size: 18px;
+  }
+  
+  .weather-info p {
+    margin-bottom: 8px;
+  }
+  
+  
