@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #007bff;
+}
+
+/* Section Styles */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px; /* Increased max-width */
+  width: 90%; /* Ensures the width adapts to the screen size */
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Component Styles */
+#home {
+  background: #007bff;
+  color: white;
+}
+
+#home h1 {
+  font-size: 2.5em;
+}
+
+#home p {
+  font-size: 1.2em;
+}
+
+/* About Component Styles */
+#about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Projects Component Styles */
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#projects li {
+  background: #f1f1f1;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+#projects li:hover {
+  background: #e9ecef;
+}
+
+/* Skills Component Styles */
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills li {
+  background: #f1f1f1;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+#skills li:hover {
+  background: #e9ecef;
+}
+
+/* Contact Component Styles */
+#contact p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  section {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  section {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  section {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  #home h1 {
+    font-size: 2em;
+  }
+
+  #home p {
+    font-size: 1em;
+  }
+}
